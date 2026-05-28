@@ -21,5 +21,28 @@ int main (){
     }
 
     cout<<endl;
+
+    int left=0;
+    int right=n-1;
+
+    cout<<arr[left]<<" "<<arr[right]<<endl;
+
+    swap(arr[left],arr[right]);
+
+    // After swapping first and last
+
+    cout<<"Array after first and last element swap: ";
+
+    for (int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+    
+    while (left<right){
+        left++;
+        right--;
+    }
+
+    cout<<arr[left]<<" "<<arr[right];
     
 }
