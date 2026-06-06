@@ -49,9 +49,9 @@ void merge(vector<int>& num1 , vector<int> num2){
     
 }
 int main(){
-    vector<int> num2={1,3,5,7,9};
+    vector<int> num2={1,5,9};
     display(num2);
-    vector<int> num1={2,4,6,7};
+    vector<int> num1={2,4,5,6,7,8,9};
     display(num1);
     merge(num1,num2);
     display(num1);
