@@ -43,7 +43,7 @@ void nextpermutaion(vector<int>& v){
     cout<<endl;
 }
 int main (){
-    vector<int> v={3,2,1};
+    vector<int> v={1,2,3,4};
     int size=v.size();
     // finding factorial 
 
@@ -54,5 +54,7 @@ int main (){
 
     // all permutation of array
 
-    
+    for(int i=1;i<=fact;i++){
+        nextpermutaion(v);
+    }
 }
